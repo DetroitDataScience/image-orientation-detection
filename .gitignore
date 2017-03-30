@@ -1,1 +1,7 @@
 .DS_Store
+
+# Ignore the training and test data, it is stored in another repository
+data
+
+# Ignore the compiled version of function_list.py
+function_list.pyc
