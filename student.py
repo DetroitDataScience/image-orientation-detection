@@ -37,12 +37,12 @@ hognumorient = 4 # HOG number of gradient orientation bins for the histogram of 
 ## Need to Set values ##
 ########################
 use_hog = 0 # if(1): use HOG features
-use_lum = 0 # if(1): use Luminance Moments as features
+use_lum = 0 # if(1): use spatial color moment as features
+normalize_lum = 0 # if(1): normalize the spatial color moment features (only works if use_lum=1)
 use_pca = 0 # if(1): use PCA as a dimensionality reduction technique
 use_lda = 0 # if(1): use LDA as a dimensionality reduction technique
 num_comp = 0 # the number of LDA components to use
 num_vec = 0 # the number of PCA vectors to use
-normalize_lum = 0 # Normalize the luminance features
 ######################## 
 ######################## 
 
