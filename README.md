@@ -4,11 +4,11 @@ A presentation and exercise designed as an introduction into machine learning.  
 Checkout how to [get started](https://github.com/DetroitDataScience/image-orientation-detection/wiki/Getting-Started) in the wiki.
 
 
-# Overview of the exercise
+# Exercise Overview
 
-The goal of the exercise is to demonstrate some of the topics presented in the talk by training and testing an image orientation classifier using different features and dimensionality reduction techniques.
+The goal of this exercise is to demonstrate some of the topics presented in the talk by training and testing an image orientation classifier using different features and dimensionality reduction techniques.
 
- * 4 possible classes: 0, 90, 180, and 270 degrees
+ * 4 possible classes: 0, 90, 180, and 270 degree rotation
  * The image features are already provided from the [training and test datasets](https://github.com/DetroitDataScience/image-orientation-detection-data) 
    * Histogram of Oriented Gradients (HOG)
    * Spatial Color Moments (3 mean and 3 variance values of L, U, and V color spaces)
@@ -33,7 +33,7 @@ The task is to choose the combination of features and parameter values for train
 
 ## Training and Testing data
 
-The training dataset contains 2149 images of people on bikes taken during a marathon. There is variation in pose, lighting, scale, the number of people in each image, and the background (e.g., mountains, foilage, road, etc.). The training set image data is 708x1064 pixels and are all already correctly oriented at 0^o. 
+The training dataset contains 2149 images of people on bikes taken during a marathon. There is variation in pose, lighting, scale, the number of people in each image, and the background (e.g., mountains, foilage, road, etc.). The training set image data is 708x1064 pixels and are all already correctly oriented at 0 degrees. 
 
 The test dataset contains 626 images of people running/walking taken during a marathon (i.e., in the same style as the training set). There is variation in pose, lighting, scale, image dimensions, the number of people in each image, and the background. The test set image data is 708x1064 pixels or 1064x708 pixels and is similarly already correctly oriented at 0 degrees. 
 
