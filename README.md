@@ -90,6 +90,13 @@ params = dict(estimator__C = [],
 
 # Additional Information
 
+## Data
+The raw data can be found in the [image-orientation-detection-data](https://github.com/DetroitDataScience/image-orientation-detection-data) repository.
+
+## Solution
+The optimal solution is available in the [solution](https://github.com/DetroitDataScience/image-orientation-detection/tree/solution) branch.  After cloning this repository you can checkout the solution branch using `git checkout solution`.
+
+## Resources
 A small collection of conference and journal papers found using Google Scholar (related to the task of image orientation detection) can be found in the papers folder. Also an overview of SVMs and the feature extraction approaches can be found in ppt/features.pdf. 
 
 The goal of the exercise is to provide easy to use start-up code, data, and a baseline result to make it easy for you to work on this outside of the meetup. 
